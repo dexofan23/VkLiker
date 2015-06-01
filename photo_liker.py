@@ -4,9 +4,9 @@ import time
 
 album_id = ['wall', 'profile', 'saved']
 photos_ids = []
-targer_id = Ид цели
+targer_id = РРґ С†РµР»Рё
 i = 0
-vkapi = vk.API('Ид приложения', 'Логин', 'Пароль')
+vkapi = vk.API('РРґ РїСЂРёР»РѕР¶РµРЅРёСЏ', 'Р›РѕРіРёРЅ', 'РџР°СЂРѕР»СЊ')
 
 for album in album_id:
     photos_list = vkapi('photos.get', owner_id=targer_id, album_id=album, count=1000)
